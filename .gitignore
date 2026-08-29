@@ -1,0 +1,40 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+.vscode/
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## SQLite database (generated locally; migrations and seeder stay in git)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+AppDbContext.db
+
+## Secrets / production environment (do not commit)
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+**/Properties/ServiceDependencies/
