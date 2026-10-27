@@ -47,3 +47,5 @@ OpenAPI-документ: `http://localhost:5070/openapi/v1.json`
 ## Документація
 
 Правила (включно з тими, яких не було в ТЗ), контролери та user flow: `DOCUMENTATION.md`
+
+Кінець
